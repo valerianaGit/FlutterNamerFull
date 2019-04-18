@@ -4,10 +4,8 @@ import 'package:english_words/english_words.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  //this class is the 'home' of the app 
   @override
   Widget build(BuildContext context) {
-   // final wordPair = WordPair.random();
     return MaterialApp(
   title: "Startup Name Generator",
   theme: new ThemeData(
@@ -22,7 +20,7 @@ class RandomWordsState extends State<RandomWords> {
 //this class saves the generated word pairs
 final List<WordPair> _suggestions = <WordPair>[];
 final Set<WordPair> _saved = new Set<WordPair>();
-final TextStyle _biggerFont = const TextStyle(fontSize: 18.0); //underscore enforeces privacy
+final TextStyle _biggerFont = const TextStyle(fontSize: 18.0); //underscore enforces privacy
   @override
   Widget build(BuildContext context) {
     return Scaffold(
