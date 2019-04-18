@@ -100,8 +100,6 @@ final TextStyle _biggerFont = const TextStyle(fontSize: 18.0); //underscore enfo
        );
      }
       }
-      
- 
 
 class RandomWords extends StatefulWidget {
   //creates its state class
